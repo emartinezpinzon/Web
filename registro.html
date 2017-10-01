@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="assets/css/uikit.css">
   <link rel="stylesheet" href="assets/css/style.css">
 
-  <title>Obsquiarte - Ingreso</title>
+  <title>Obsquiarte - Registro</title>
 </head>
 
 <body>
@@ -50,61 +50,45 @@
         <form>
           <fieldset class="uk-fieldset">
 
-          <legend class="uk-legend">Ingreso al sistema</legend>
+          <legend class="uk-legend">Registrate en Obsequiarte</legend>
+
+          <div class="uk-margin">
+            <input class="uk-input" type="text" placeholder="Nombre">
+          </div>
 
           <div class="uk-margin">
             <input class="uk-input" type="text" placeholder="Usuario">
           </div>
 
           <div class="uk-margin">
+            <input class="uk-input" type="email" placeholder="Correo electrónico">
+          </div>
+
+          <div class="uk-margin">
             <input class="uk-input" type="password" placeholder="Contraseña">
           </div>
 
+          <div class="uk-margin">
+            <input class="uk-input" type="password" placeholder="Repite la contraseña">
+          </div>
+
           <div class="uk-margin text-right">
-            <a href="" class="uk-button uk-button-primary">Ingresar</a>
+            <a href="" class="uk-button uk-button-primary">Registrame</a>
           </div>
 
           </fieldset>
         </form>
 
         <legend class="uk-leggend"></legend>
-
-        <div class="row">
-          <div class="col-md-6 col-xs-12 text-center">
+          <div class="col-xs-12 text-center">
             <div class="uk-margin">
-              <a href="#restart-password" uk-toggle>¿Olvidó su contraseña?</a>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-xs-12 text-center">
-            <div class="uk-margin">
-              <a href="registro.html">¿No tiene una cuenta?</a>
+              <a href="ingreso.html">¿Ya tienes una cuenta?</a>
             </div>
           </div>
         </div>
 
       </div>
     </div>
-  </div>
-
-  <div id="restart-password" uk-modal>
-      <div class="uk-modal-dialog">
-          <button class="uk-modal-close-default" type="button" uk-close></button>
-          <div class="uk-modal-header">
-              <h2 class="uk-modal-title">Ingresa tu correo electrónico</h2>
-          </div>
-          <div class="uk-modal-body">
-              <p>Ingresa un correo para ponernos en contacto contigo y poder recuperar tu cuenta.</p>
-
-              <div class="uk-margin">
-                <input class="uk-input" type="email" placeholder="Correo electrónico">
-              </div>
-          </div>
-          <div class="uk-modal-footer uk-text-right">
-              <button class="uk-button uk-button-default uk-modal-close" type="button">Cancelar</button>
-              <button class="uk-button uk-button-primary" type="button">Envíar correo</button>
-          </div>
-      </div>
   </div>
 
   <div style="background-color: white">
