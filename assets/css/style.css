@@ -7,3 +7,15 @@
 .info-contacto {
     padding: 5px;
 }
+
+a {
+    text-decoration: none !important;
+}
+
+.tienda {
+    padding: 30px 0;
+}
+
+.uk-card-body {
+    padding: 15px 15px !important;
+}

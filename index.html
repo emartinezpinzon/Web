@@ -7,16 +7,16 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
   <link rel="shortcut icon" href="https://www.obsequiarte.co/assets/favicon.ico">
-  <link rel="stylesheet" href="assets/css/uikit.css">
   <link rel="stylesheet" href="assets/css/bootstrap.css">
+  <link rel="stylesheet" href="assets/css/uikit.css">
   <link rel="stylesheet" href="assets/css/style.css">
 
-  <title>Obsquiarte</title>
+  <title>Obsquiarte - Inicio</title>
 </head>
 
 <body>
   <nav class="navbar navbar-default">
-    <div class="container-fluid">
+    <div class="container">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -25,28 +25,17 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#">Obsequiarte</a>
+        <a class="navbar-brand enlace" href="index.html">Obsequiarte</a>
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
-          <li class="active"><a href="#">Tienda<span class="sr-only">(current)</span></a></li>
-          <li><a href="#">¿Quienes somos?</a></li>
-          <li><a href="#">Contacto</a></li>
+          <li class="active"><a href="index.html" class="enlace">Tienda<span class="sr-only">(current)</span></a></li>
+          <li><a href="contacto.html" class="enlace">Contacto</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#">Ingresar</a></li>
-          <!--<li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-          </ul>
-      </li>-->
+          <li><a href="ingreso.html" class="enlace">Ingresar</a></li>
         </ul>
       </div>
       <!-- /.navbar-collapse -->
@@ -54,8 +43,105 @@
     <!-- /.container-fluid -->
   </nav>
 
+  <div class="tienda">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 col-xs-6">
+          <div class="uk-card uk-card-default uk-box-shadow-small uk-box-shadow-hover-large">
+            <div class="uk-card-media-top">
+              <img src="assets/images/tulipanes.jpg" alt="Imagen del regalo">
+            </div>
+            <div class="uk-card-body">
+              <h4 class="fit2Text"><a href="#tulipanes" uk-toggle><span>Tulipanes amarillos</span></a></h4>
+              <div class="text-right">
+                <strong>Precio</strong>
+                <br>
+                <small><s>$ 50.000</s></small> <span>$ 40.000</span>
+                <br>
+                <span class="label label-success">20%</span>
+              </div>
+            </div>
+            <div class="uk-card-footer">
+              <a href="#tulipanes" class="uk-button uk-button-text" uk-toggle>Ver más</a>
+            </div>
+          </div>
+
+          <div id="tulipanes" uk-modal>
+            <div class="uk-modal-dialog">
+              <button class="uk-modal-close-default" type="button" uk-close></button>
+              <div class="uk-modal-header">
+                <h2 class="uk-modal-title">Tulipanes amarillos</h2>
+              </div>
+              <div class="uk-modal-body">
+                <div class="text-center">
+                  <img src="assets/images/tulipanes.jpg" alt="Imagen del regalo">
+                </div>
+
+                <p>Regala unos hermosos tulipanes amarillos y alegra el día de quienes más quieres.</p>
+
+                <div class="text-right">
+                  <strong>Precio</strong>
+                  <br>
+                  <small><s>$ 50.000</s></small> <span>$ 40.000</span>
+                  <br>
+                  <span class="label label-success">20%</span>
+                </div>
+
+                <div class="uk-margin">
+                  Cantidad:
+                  <select class="uk-select">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                  </select>
+                </div>
+              </div>
+              <div class="uk-modal-footer uk-text-right">
+                <button class="uk-button uk-button-default uk-modal-close" type="button">Cancelar</button>
+                <button class="uk-button uk-button-primary uk-modal-close" type="button">Agregar al carrito</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div style="background-color: white">
+  <hr>
+    <div class="container">
+      <footer>
+        <div class="row">
+          <div class="col-md-4 col-xs-12 text-center" style="margin-right: -45px;">
+            <a href="http://www.mintic.gov.co" target="_blank"><img src="https://www.obsequiarte.co/assets/images/aliados/gobierno.png" style="height: 100px;"></a>
+          </div>
+          <div class="col-md-3 col-xs-12 text-center" style="margin-right: -30px;">
+            <a href="http://www.codaltec.com" target="_blank"><img src="https://www.obsequiarte.co/assets/images/aliados/codaltecNew.png" style="height: 100px;"></a>
+          </div>
+          <div class="col-md-1 col-xs-12 text-center" style="margin-right: -20px;">
+            <img src="https://www.obsequiarte.co/assets/images/aliados/aliadoNew.png" style="height: 100px;">
+          </div>
+          <div class="col-md-2 col-xs-12 text-center">
+            <a href="http://www.cccucuta.org.co" target="_blank"><img src="https://www.obsequiarte.co/assets/images/aliados/camaraNew.png" style="height: 100px;"></a>
+          </div>
+          <div class="col-md-2 col-xs-12 text-center">
+            <a href="http://www.ufps.edu.co" target="_blank"><img src="https://www.obsequiarte.co/assets/images/aliados/ufpsNew.png" style="height: 100px;"></a>
+          </div>
+        </div>
+
+        <div class="row text-center">
+          Todos los derechos reservados © Obsequiarte.  Aplica términos y condiciones.  Pamplona, Norte de Santander
+        </div>
+      </footer>
+    </div>
+  </div>
+
   <script src="assets/js/jquery.js"></script>
   <script src="assets/js/bootstrap.js"></script>
+  <script src="assets/js/uikit.js"></script>
+  <script src="assets/js/uikit-icons.js"></script>
 </body>
 
 </html>
